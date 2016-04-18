@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1460577882942.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "42DF2408",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1460577882942,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "f0djs6ga2l",
+        "caption" : "offense",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=offense&cache_key=f0djs6ga2l",
+        "displayedObservations" : 32,
+        "environment" : "",
+        "object" : "offense",
+        "totalObservations" : 32,
+        "variables" : 14
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

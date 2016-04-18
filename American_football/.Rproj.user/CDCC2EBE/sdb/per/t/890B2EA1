@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "installed.packages(\"ggplot2\")\ninstall.packages(\"ggplot2\")\nversion\ninstall.packages(\"ggplot2\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"ggplot2movies\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"ggplot2\", dependencies = TRUE)\nsessionInfo()\ninstalled.packages('ggplot2')\ninstalled.packages('ggplot2')\ninstall.packages(\"ggplot2\", dependencies = TRUE)\ninstall.packages(\"ggplot2\", dependencies = TRUE)\ninstall.packages(\"ggplot2\", dependencies = TRUE)\ninstall.packages(\"ggplot2\", dependencies = TRUE)\ninstall.packages(\"ggplot2\", dependencies = TRUE)\ninstall.packages(\"ggplot2\", dependencies = TRUE)\nsave.image(\"~/Documents/Cookbook_work/a.RData\")\ninstall.packages(\"XML\")\ninstall.packages(\"RSQLite\")\ninstall.packages(\"stringr\")\ninstall.packages(\"ggplot2\")\nlibrary(XML)\ninstall.packages(\"XML\")\ninstall.packages(\"XML\")\ninstall.packages(\"XML\")\nlibrary(XML)\nlibrary(RSQLite)\ninstall.packages(DBI)\ninstall.packages(\"DBI\")\nlibrary(DBI)\nlibrary(RSQLite)\nlibrary(stringr)\nlibrary(ggplot2)\nsetwd(\"~/Documents/Cookbook_work/American_football\")\nyear <-2013\nurl <- paste(\"http://sports.yahoo.com/nfl/stats/byteam?group=Offense&cat=Total&conference=NFL&year=season_\",year,\"&sort=530&old_category=Total&old_group=Offence\")\noffence <- readHTMLTable(url,encoding=\"UTF-8\",colClasses = \"character\")[[7]]\nhead(offence)\nView(offence)\noffence <- offence[,~c(2,4,6,8,10,12,14,16,18,20,22,24,26,28)]\noffence <- offence[,-c(2,4,6,8,10,12,14,16,18,20,22,24,26,28)]\neadHTMLTable(url,encoding=\"UTF-8\",colClasses = \"character\")[[7]]\noffense <- readHTMLTable(url,encoding=\"UTF-8\",colClasses = \"character\")[[7]]\nView(offence)\nView(offence)\nView(offence)\nremove(offence)\noffense <- offense[,-c(2,4,6,8,10,12,14,16,18,20,22,24,26,28)]\nView(offense)\noffense <- as.character((offense[,1]))\noffense <- apply\noffense <- apply(offense[,2:13],2,as.numeric)\noffense <- readHTMLTable(url,encoding=\"UTF-8\",colClasses = \"character\")[[7]]\noffense <- offense[,-c(2,4,6,8,10,12,14,16,18,20,22,24,26,28)]\nView(offense)\noffense <- as.character((offense[,1]))\noffense <- apply(offense[,2:13],2,as.numeric)\noffense.shape\n",
+    "created" : 1460577265741.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3888760651",
+    "id" : "890B2EA1",
+    "lastKnownWriteTime" : 1460578239,
+    "last_content_update" : 1460578239,
+    "path" : "~/Documents/Cookbook_work/American_football/.Rhistory",
+    "project_path" : ".Rhistory",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_history"
+}
